@@ -1,0 +1,59 @@
+/* Reset básico */ 
+* { margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; } 
+
+	/* Tipografía y colores generales */ 
+	body { 
+		font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+		background-color: #f0fdf4; 
+		color: #1b4332; 
+		line-height: 1.6; 
+		padding: 20px; } 
+
+		/* Contenedor principal */ 
+		.contenedor-principal { 
+			max-width: 900px; 
+			margin: auto; 
+			background: #ffffff; 
+			border-radius: 16px; 
+			box-shadow: 0 4px 12px rgba(0, 64, 32, 0.1); 
+			padding: 30px; } 
+
+			/* Encabezado principal */ 
+			header h1 { 
+				color: #2d6a4f; 
+				font-size: 2rem; 
+				margin-bottom: 10px; } 
+
+				header p { 
+					font-size: 1rem; 
+					margin-bottom: 20px; } 
+
+					/* Secciones */ 
+					section { 
+						margin-bottom: 30px; } 
+
+						section h2 { 
+							font-size: 1.5rem; 
+							color: #40916c; 
+							border-left: 5px solid #74c69d; 
+							padding-left: 10px; 
+							margin-bottom: 10px; } 
+
+							/* Listas */ 
+							ul, ol { 
+								padding-left: 25px; 
+								margin-bottom: 10px; }
+
+								ul li, ol li { 
+									margin-bottom: 6px; } 
+
+									/* Decisiones críticas */ 
+									.decision { 
+										background-color: #d8f3dc; 
+										padding: 10px; 
+										border-left: 4px solid #2d6a4f; 
+										font-style: italic; 
+										margin-top: 10px; } 
+										/* Análisis psicoafectivo y próximos pasos */ #psicoanalisis, #proximos-pasos { background-color: #e6f4ea; padding: 20px; border-radius: 10px; border-left: 4px solid #95d5b2; } /* Footer */ footer { text-align: center; font-size: 0.9rem; color: #555; margin-top: 40px; padding-top: 20px; border-top: 1px solid #cce3de; } footer em { color: #52796f; } /* Responsive */ @media (max-width: 600px) { .contenedor-principal { padding: 20px; } header h1 { font-size: 1.6rem; } section h2 { font-size: 1.2rem; } } 
